@@ -1,0 +1,61 @@
+h1 {
+	margin-top:25px;/*Başlıkla site başı arasına mesafe koyar*/
+	color: #8B0000;/*Başlık rengi*/
+	font-size: 60px;/*Yazı boyutu*/
+}
+
+hr{
+	margin-top:25px;/*Başlık altı çizgisi boyutu*/
+}
+img{
+	width: 80%;/*Resim genişliği*/
+	height: 100%;/*Resim boyu*/
+}
+body{
+	background-color: #F9F9F9;/*Sayfa arka plan rengi*/
+}
+.paragraf{
+	text-indent: 90px;/*Paragraf boşluğu*/
+	color: #4A4A4A;/*Yazı rengi*/
+	font-size: 30px;/*Yazı boyutu*/
+	width: 80%;/*Sayfanın ne kadar kısmını kapladığı*/
+	margin: 0 auto;/*Dış boşluk ayarlar*/
+	text-align: justify;/*Metnin yatay hizalanmasını kontrol eder*/
+	font-family: times new roman;/*Yazı çeşidi*/
+}
+table{
+	width: 60%;/*Sayfanın ne kadar kısmını kapladığı*/
+	margin: 20px auto;/*Dış boşluk ayarlar*/
+	border-collapse: collapse;/*Hücrelerin kenarlarını birleştirir*/
+	font-family: arial;/*Yazı çeşidi*/
+	background-color:#BDC3C7;/*Tablo arka plan rengi*/
+}
+table,th,td{
+	border: 3px solid black;/*Kenarlık*/
+	text-align: center;/*Yazıları merkeze taşır*/
+	padding: 10px;/*İçerik ile öğe arasında boşluk oluşturur*/
+	font-size: 20px;/*Yazı boyutu*/
+	
+}
+thead th{
+	background-color: #EFE8D8;/*Tablo başlık satırı arka plan rengi*/
+	color: #5A463F;/*Yazı rengi*/
+	font-weight: bold;/*Yazı kalınlığı*/
+}
+tbody tr{
+	background-color: #FFFFFF;/*Tablo satırları arka plan rengi*/
+	}
+a{
+	color: #8B0000;/*Link normal rengi*/
+	font-weight: bold;/*Yazı kalınlığı*/
+}
+a:visited{
+	color: #5A2323;/*Linkin üstüne geldiğimizdeki rengi*/
+}
+a:hover{
+	color: #A83232;/*Linke bastığımızda anlık oluşan renk*/
+	text-decoration: underline;/*Linkin altına çizgi çeker*/
+}
+a:active{
+	color: #730000;/*Diğer sayfaya geçerken en son görünen renk*/
+}

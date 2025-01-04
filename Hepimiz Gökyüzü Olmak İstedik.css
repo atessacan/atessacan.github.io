@@ -1,0 +1,61 @@
+h1 {
+	margin-top:25px;/*Başlıkla site başı arasına mesafe koyar*/
+	color: #D94F4F;/*Başlık rengi*/
+	font-size: 60px;/*Yazı boyutu*/
+}
+
+hr{
+	margin-top:25px;/*Başlık altı çizgisi boyutu*/
+}
+img{
+	width: 80%;/*Resim genişliği*/
+	height: 100%;/*Resim boyu*/
+}
+body{
+	background-color: #F0F4F8;/*Sayfa arka plan rengi*/
+}
+.paragraf{
+	text-indent: 90px;/*Paragraf boşluğu*/
+	color: #4A4A4A;/*Yazı rengi*/
+	font-size: 30px;/*Yazı boyutu*/
+	width: 80%;/*Sayfanın ne kadar kısmını kapladığı*/
+	margin: 0 auto;/*Dış boşluk ayarlar*/
+	text-align: justify;/*Metnin yatay hizalanmasını kontrol eder*/
+	font-family: times new roman;/*Yazı çeşidi*/
+}
+table{
+	width: 60%;/*Sayfanın ne kadar kısmını kapladığı*/
+	margin: 20px auto;/*Dış boşluk ayarlar*/
+	border-collapse: collapse;/*Hücrelerin kenarlarını birleştirir*/
+	font-family: arial;/*Yazı çeşidi*/
+	background-color:#FFFFFF;/*Tablo arka plan rengi*/
+}
+table,th,td{
+	border: 3px solid black;/*Kenarlık*/
+	text-align: center;/*Yazıları merkeze taşır*/
+	padding: 10px;/*İçerik ile öğe arasında boşluk oluşturur*/
+	font-size: 20px;/*Yazı boyutu*/
+	
+}
+table td{
+	color:#4A4A4A;/*Tablo satırı yazı rengi*/
+}
+thead th{
+	background-color: #F5D0A9;/*Tablo başlık satırı arka plan rengi*/
+	color: #6B3F3A;/*Yazı rengi*/
+	font-weight: bold;/*Yazı kalınlığı*/
+}
+a{
+	color: #0066CC;/*Link normal rengi*/
+}
+
+a:visited{
+	color: #004C99;/*Linkin üstüne geldiğimizdeki rengi*/
+}
+a:hover{
+	color: #3399FF;/*Linke bastığımızda anlık oluşan renk*/
+	text-decoration: underline;/*Linkin altına çizgi çeker*/
+}
+a:active{
+	color: #005BB5;/*Diğer sayfaya geçerken en son görünen renk*/
+}
